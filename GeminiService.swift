@@ -3,7 +3,7 @@
 //  HOAN2.0
 //
 //  Created by Joshua Lee on 5/9/26.
-// 집인데집가고싶다
+// 제미나이연결을위해..
 import Foundation
 import UIKit
 import GoogleGenerativeAI
