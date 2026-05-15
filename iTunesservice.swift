@@ -29,8 +29,7 @@ class iTunesService {
             return nil
         }
         
-        // PRO TIP: Apple returns a tiny 100x100 image by default.
-        // We replace "100x100" with "600x600" in the URL to trick the server into giving us a high-res version!
+       
         let highResURLString = track.artworkUrl100.replacingOccurrences(of: "100x100bb", with: "600x600bb")
         
         return URL(string: highResURLString)
